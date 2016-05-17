@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    
+    
+    
+    
+    
+<head>
+    
+    
+    
+  <title>Login Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <style>
+    
+    button[type=button], select {
+        width: 20%;
+        background-color: #d54;
+        border: 1px solid #d54;
+        color: white;
+        
+    }
+    
+    button[type=button]:hover {
+        width: 20%;
+        background-color: #d24;
+        border: 1px solid #a24;
+        color: black;
+        
+    }
+    
+    
+    
+   
+
+
+    
+    
+    
+    
+    input[type=submit] {
+        font-size: 20px;
+    }
+    
+    
+    input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+    
+    input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #d54;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #d55;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+    
+    
+    
+body {
+    background-image: url("http://hd-wallpapers.xyz/wp-content/uploads/2016/02/4k_wallpaper_9bd.jpg");
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+</style>
+<p></p>
+    <center><h1><font color="white"><p>ADMIN LOGIN</p></font></h1>
+<script>
+function validateForm() {
+    var x = document.forms["usernmForm"]["usernm"].value;
+    if (x == "Admin" || x == "") {
+        alert("Invalid Username Or Password!");
+        return false;
+    }
+}
+</script>
+<script>
+function validateForm() {
+    var x = document.forms["usernmForm"]["password"].value;
+    if (x == "Password" || x == "") {
+        alert("Invalid Username Or Password!");
+        return false;
+    }
+}
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center><form name="usernmForm" action="http://doft.yolasite.com/admin-database.php"
+onsubmit="return validateForm()" method="post">
+<font color="white"><font size=5px>Username: <p></p><input type="text" name="usernm">
+<p></p>
+Password: <p></p><input type="password" name="password">
+<p></p>
+<input type="submit" class="button" value="LOGIN">
+</font></font>
+</form>
+</center>
+<p></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+<p></p>
+
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Open Panel</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">NOTES PANEL</h4>
+      </div>
+      <div class="modal-body">
+        <p>This application is currently under a development phase, and some features may/might not work properly.</p><p>For more information and/or policies, <a href=http://doft.yolasite.com/#A1>Click Here</a>, and then click/press on one/any of the two options titled: "Privicy Policy" or "Terms Of Use".</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<p></p> <!--Code Here-->
+
+  
+  
+ 
+
+  
+
+
+
+
+
+
+  <p></p> <!--Code End-->
+  <p></p><font color="white"><font size="1px"><a href="http://doft.yolasite.com">Powered By: D.O.F.T.</a></font></font><p></p>
+  <font size="0px"><font color="white">© 2016, http://doft.yolasite.com, org, or it's affiliates. All rights reserved. (Rights gained on upload.)<p></p>Resources Used:<a href="http://w3schools.com"> http://w3schools.com</a></font></font>
+<p></p>
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+</center>
+</body>
+</html>
